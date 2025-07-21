@@ -1,0 +1,19 @@
+# arguments for dataset
+dataset: busi
+nclass: 2
+crop_size: 256
+data_root:
+
+# arguments for training
+epochs: 100
+batch_size: 12 # per GPU x 1 GPU
+lr: 0.007
+conf_thresh: 0.91
+lr_multi: 1.0
+thresh_init: 0.85
+backbone: resnet101
+pretrain: True
+multi_grid: False
+replace_stride_with_dilation: [False, True, True]
+#dilations: [6, 12, 18]
+dilations: [12, 24, 36]
