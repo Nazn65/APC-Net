@@ -7,7 +7,7 @@ We provide the official PyTorch implementation of our APC-Net, a semi-supervised
 - **PPO**: Progressive Pseudo-label Optimization
 
 > 📄 **The Semi-Supervised Medical Image Segmentation Method Based on Adaptive Perturbation Enhancement and Progressive Consistency Propagation**  
-> *Accepted in [your venue, e.g., MICCAI/NeurIPS 2025]*
+>
 
 ---
 
@@ -27,7 +27,7 @@ git clone https://github.com/yourname/APC-Net.git
 cd APC-Net
 conda create -n apcnet python=3.10
 conda activate apcnet
-pip install -r requirements.txt
+
 ```
 
 ---
@@ -75,19 +75,12 @@ bash scripts/train_baseline.sh ISIC 100 0
 
 | Dataset | Method       | Dice (%) | Jaccard (%) |
 |---------|--------------|----------|-------------|
-| ISIC    | APC-Net (20%)| **76.37**| **68.09**   |
-| BUSI    | APC-Net (20%)| **78.42**| **70.12**   |
-| DDTI    | APC-Net (20%)| **73.10**| **64.88**   |
+| BUSI   | APC-Net (20%)| **76.37**| **68.09**   |
+| ISIC    | APC-Net (20%)| **88.53**| **79.64**   |
+| DDTI    | APC-Net (20%)| **75.42**| **72.25**   |
 
 ---
 
-## 📌 Key Components
-
-- `models/pape.py`: PG-MSPCNN-based perturbation generator  
-- `modules/crp.py`: Region consistency propagation (APCM + RSAP)  
-- `utils/ppo.py`: Progressive pseudo-label filtering strategy
-
----
 
 ## 🧪 Evaluation
 
