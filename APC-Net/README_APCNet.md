@@ -34,9 +34,9 @@ conda activate apcnet
 
 ## 🩺 Datasets
 
-- **BUSI** (Breast Ultrasound)  
-- **ISIC** (Skin Lesion)  
-- **DDTI** (Dermoscopic)
+- **BUSI** (Breast Ultrasound Images)  
+- **ISIC** (International Skin Imaging Collaboration)  
+- **DDTI** (Digital Database of Thyroid Images)
 
 Please place your datasets as:
 
