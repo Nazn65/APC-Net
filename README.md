@@ -23,7 +23,7 @@ We provide the official PyTorch implementation of our APC-Net, a semi-supervised
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/yourname/APC-Net.git
+git clone https://github.com/Nazn65/APC-Net.git
 cd APC-Net
 conda create -n apcnet python=3.10
 conda activate apcnet
